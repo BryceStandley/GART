@@ -1,6 +1,8 @@
 conda remove -n gart --all -y
 conda create -n gart python=3.9 -y
 
+conda init
+
 conda activate gart
 
 conda install pytorch torchvision torchaudio cpuonly -c pytorch -y
